@@ -1,8 +1,8 @@
 import rsa
 
-def encrypt(message,publicKey):
+def encryptText(message,publicKey):
     return rsa.encrypt(message.encode(),
                          publicKey)
 
-def decrypt(message,privateKey):
+def decryptText(message,privateKey):
     return rsa.decrypt(message, privateKey).decode()

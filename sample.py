@@ -20,7 +20,7 @@ message = "Hello World"
 # string with public key string should be
 # encode to byte string before encryption
 # with encode method
-encMessage = utils.encrypt(message,publicKey)
+encMessage = utils.encryptText(message,publicKey)
  
 print("original string: ", message)
 print("encrypted string: ", encMessage)
@@ -31,5 +31,5 @@ print("encrypted string: ", encMessage)
 # use decode method to convert it to string
 # public key cannot be used for decryption
 
-decMessage = utils.decrypt(encMessage,privateKey)
+decMessage = utils.decryptText(encMessage,privateKey)
 print("decrypted string: ", decMessage)
