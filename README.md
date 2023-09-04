@@ -2,7 +2,7 @@
 
 This is a saimple python project to demonstrate how to use public and private RSA encryption keys to encrypt and decrypt text.
 
-Currently the code is capable of encrypting text but in the future it will include file encryption and signature verification.
+Currently the code is capable of encrypting text and files in the future it will also include signature verification.
 
 See the instructions below to run the code.
 
